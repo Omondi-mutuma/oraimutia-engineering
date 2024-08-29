@@ -1,7 +1,7 @@
 import { ButtonProps } from "@/types/index.t";
 import React from "react";
 
-const Button = ({ name, type, label, icon: Icon, variant }: ButtonProps) => {
+const CTA = ({ name, type, label, icon: Icon, variant }: ButtonProps) => {
   return (
     <button className={`${variant}`} type={type} name={name}>
       {label}
@@ -10,4 +10,4 @@ const Button = ({ name, type, label, icon: Icon, variant }: ButtonProps) => {
   );
 };
 
-export default Button;
+export default CTA;

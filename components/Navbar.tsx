@@ -1,7 +1,7 @@
 "use client";
 import { NAVLINKS } from "@/constants/index.c";
 import Image from "next/image";
-import Button from "./Button";
+import Button from "./CTA";
 import { IoArrowForwardCircleOutline } from "react-icons/io5";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -26,7 +26,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className="absolute top-0 left-0 z-20 w-full flex justify-between items-center py-2 px-3 h-16">
+    <header className="absolute top-0 left-0 z-20 w-full flex justify-between items-center  h-16  ring-1 ring-white/10 bg-neutral-50 dark:bg-neutral-800 py-1.5 px-4">
       <Image
         src="/logo.png"
         alt="logo"
