@@ -16,7 +16,7 @@ export function BentoGridSecondDemo() {
     <section className="container">
       <Button
         borderRadius="1.75rem"
-        className="bg-secondary-foreground border-secondary-foreground"
+        className="bg-secondary-foreground border-secondary-foreground p-4"
       >
         <p className="lg:-rotate-90 w-full text-3xl font-bold tracking-wider">
           Services

@@ -51,7 +51,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-2 w-full h-full gap-3 my-auto">
+        <div className="lg:grid hidden lg:grid-cols-2 w-full h-full gap-3 my-auto">
           <WobbleCard containerClassName="col-span-2 w-full bg-yellow-800">
             <div className="max-w-xs">
               <h2 className="text-base md:text-xl text-white">Civil works</h2>
