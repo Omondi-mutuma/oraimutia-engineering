@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Statistics from "@/components/Statistics";
 import Image from "next/image";
 import React from "react";
 
@@ -8,6 +9,7 @@ export default function Home() {
     <main className="relative min-h-screen flex-col items-center justify-between overflow-hidden">
       <Navbar />
       <Hero />
+      <Statistics />
     </main>
   );
 }

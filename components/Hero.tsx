@@ -14,7 +14,7 @@ import { cn } from "@/lib/utils";
 const Hero = () => {
   return (
     <section className="h-full w-full">
-      <BackgroundBeamsWithCollision className="flex flex-col py-16  px-8 lg:flex-row lg:justify-center lg:py-24 lg:px-24 gap-10">
+      <div className="container">
         <div className="flex flex-col h-full gap-6 w-full justify-center">
           <div className="w-full flex">
             <Button
@@ -63,7 +63,7 @@ const Hero = () => {
           <CardDemo2></CardDemo2>
           <CardDemo></CardDemo>
         </div>
-      </BackgroundBeamsWithCollision>
+      </div>
     </section>
   );
 };
