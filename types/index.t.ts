@@ -7,3 +7,9 @@ export interface ButtonProps {
   icon?: IconType;
   variant?: string;
 }
+
+export interface SkeletonProps {
+  image: string;
+  width: any;
+  height: any;
+}
