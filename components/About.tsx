@@ -13,15 +13,15 @@ import { SkeletonProps } from "@/types/index.t";
 
 export function BentoGridSecondDemo() {
   return (
-    <section className="container">
-      <Button
-        borderRadius="1.75rem"
-        className="bg-secondary-foreground border-secondary-foreground p-4"
-      >
-        <p className="lg:-rotate-90 w-full text-3xl font-bold tracking-wider">
-          Services
-        </p>
-      </Button>
+    <section className="flex flex-col px-8 py-8 gap-6">
+      <div className="w-full px-5">
+        <Button
+          borderRadius="1.75rem"
+          className="w-full flex justify-center text-center bg-secondary-foreground border-secondary-foreground p-2"
+        >
+          <h3 className="text-2xl ">Our services</h3>
+        </Button>
+      </div>
       <BentoGrid className="w-full mx-auto md:auto-rows-[20rem]">
         {items.map((item, i) => (
           <BentoGridItem

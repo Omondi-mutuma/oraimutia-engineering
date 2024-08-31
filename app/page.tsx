@@ -1,10 +1,10 @@
 import About from "@/components/About";
-import Blog from "@/components/Blog";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Statistics from "@/components/Statistics";
+import Testimonials from "@/components/Testimonials";
 import Image from "next/image";
 import React from "react";
 export default function Home() {
@@ -14,8 +14,8 @@ export default function Home() {
       <Hero />
       <Statistics />
       <About />
+      <Testimonials />
       <Contact />
-      <Blog />
       <Footer />
     </main>
   );

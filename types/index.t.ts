@@ -6,6 +6,7 @@ export interface ButtonProps {
   label: string;
   icon?: IconType;
   variant?: string;
+  goto?: string;
 }
 
 export interface SkeletonProps {
