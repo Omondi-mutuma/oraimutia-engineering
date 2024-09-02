@@ -13,15 +13,15 @@ import { cn } from "@/lib/utils";
 
 const Hero = () => {
   return (
-    <section className="h-full w-full">
-      <div className="container">
+    <section className="container">
+      <div className="flex items-center justify-center gap-10">
         <div className="flex flex-col h-full gap-6 w-full justify-center">
           <div className="w-full flex">
             <Button
               borderRadius="1.75rem"
               className="bg-secondary-foreground px-4 py-2 border-secondary-foreground"
             >
-              Latest: Murang&apos;a County launches E.P.Z!
+              Latest: Kenya&apos;s president launches SA.I.C in Kirinyaga County
             </Button>
           </div>
           <div className="flex flex-col gap-4">
@@ -53,12 +53,19 @@ const Hero = () => {
 
         <div className="lg:grid hidden lg:grid-cols-2 w-full h-full gap-3 my-auto">
           <WobbleCard containerClassName="col-span-2 w-full bg-yellow-800">
-            <div className="max-w-xs">
-              <h2 className="text-base md:text-xl text-white">Civil works</h2>
-              <p className="flex flex-col justify-between text-base/6 text-gray-300">
+            <div className="max-w-xs ">
+              <h2 className="text-base md:text-xl text-gray-50">Civil works</h2>
+              <p className="flex flex-col justify-between text-base/6 text-gray-50">
                 Timely, within budget, quality and safety.
               </p>
             </div>
+            <Image
+              src="/civil.png"
+              alt=""
+              width={600}
+              height={1067}
+              className="absolute -bottom-[300px] left-0 -z-40 blur-lg"
+            />
           </WobbleCard>
           <CardDemo2></CardDemo2>
           <CardDemo></CardDemo>

@@ -13,15 +13,17 @@ import { SkeletonProps } from "@/types/index.t";
 
 export function BentoGridSecondDemo() {
   return (
-    <section className="flex flex-col px-8 py-8 gap-6">
-      <div className="w-full px-5">
+    <section className="container">
+      <div className="flex justify-center px-8">
         <Button
           borderRadius="1.75rem"
-          className="w-full flex justify-center text-center bg-secondary-foreground border-secondary-foreground p-2"
+          duration={20000}
+          className=" justify-center text-center bg-white text-slate-800 px-4 py-2"
         >
-          <h3 className="text-2xl ">Our services</h3>
+          <h3 className="text-2xl font-bold">Our services</h3>
         </Button>
       </div>
+
       <BentoGrid className="w-full mx-auto md:auto-rows-[20rem]">
         {items.map((item, i) => (
           <BentoGridItem
@@ -71,6 +73,17 @@ const items = [
     height: "4500", // Custom height
   },
   {
+    title: "Community water projects",
+    description: "Discover the beauty of thoughtful and functional design.",
+    className: "md:col-span-1",
+    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+    image:
+      "https://plus.unsplash.com/premium_photo-1675624629079-e4bc75b079ac?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Image path
+    width: "350", // Custom width
+    height: "300", // Custom height
+  },
+
+  {
     title: "Borehole drilling",
     description: "Dive into the transformative power of technology.",
     className: "md:col-span-1",
@@ -80,14 +93,26 @@ const items = [
     height: "612", // Custom height
   },
   {
-    title: "Community water projects",
-    description: "Discover the beauty of thoughtful and functional design.",
+    title: "Road maintenance",
+    description:
+      "Timely and reliable road works and repair services by professionals",
     className: "md:col-span-1",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
     image:
-      "https://plus.unsplash.com/premium_photo-1675624629079-e4bc75b079ac?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Image path
+      "https://images.unsplash.com/photo-1724648179736-fef1ae010d6b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Image path
     width: "350", // Custom width
     height: "300", // Custom height
+  },
+  {
+    title: "Construction Sites",
+    description:
+      "We manage construction sites and provide safe equipment and gear.",
+    className: "md:col-span-1",
+    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+    image:
+      "https://images.unsplash.com/photo-1610164989165-0c4701bc4ce2?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Image path
+    width: "448", // Custom width
+    height: "612", // Custom height
   },
   {
     title: "The Power of Communication",

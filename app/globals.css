@@ -79,6 +79,6 @@
     @apply px-4 py-3 flex gap-2 items-center justify-center uppercase text-sm font-medium border-yellow-600 border-2 rounded-2xl;
   }
   .container {
-    @apply flex flex-col pt-16  px-8 lg:flex-row lg:justify-center lg:pt-24 gap-10;
+    @apply h-full w-full flex flex-col justify-center px-4 py-8 gap-10 md:px-16 lg:px-20;
   }
 }

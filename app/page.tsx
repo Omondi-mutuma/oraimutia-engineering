@@ -9,7 +9,7 @@ import Image from "next/image";
 import React from "react";
 export default function Home() {
   return (
-    <main className="relative min-h-screen flex-col items-center justify-between overflow-hidden">
+    <main className="relative min-h-screen flex-col items-center justify-between">
       <Navbar />
       <Hero />
       <Statistics />

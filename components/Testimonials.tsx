@@ -7,12 +7,13 @@ import { Button } from "./ui/moving-border";
 export function InfiniteMovingCardsDemo() {
   return (
     <section className="h-full mt-5 rounded-md flex flex-col gap-6 antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-      <div className="w-full px-8">
+      <div className="flex justify-center px-8">
         <Button
           borderRadius="1.75rem"
-          className="w-full flex justify-center text-center bg-secondary-foreground border-secondary-foreground p-2"
+          duration={20000}
+          className=" justify-center text-center bg-white text-slate-800 px-4 py-2"
         >
-          <h3 className="text-2xl ">Client Testimonials</h3>
+          <h3 className="text-2xl font-bold">Client Testimonials</h3>
         </Button>
       </div>
       <InfiniteMovingCards

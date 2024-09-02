@@ -26,7 +26,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className="absolute top-0 left-0 z-20 w-full flex justify-between items-center  h-16  ring-1 ring-white/10 bg-neutral-50 dark:bg-neutral-800 py-1.5 px-4">
+    <header className="w-full sticky top-0 z-50 flex justify-between items-center  h-16  ring-1 ring-white/10 bg-neutral-50 dark:bg-neutral-800 py-1.5 px-4 drop-shadow-lg">
       <Image
         src="/logo.png"
         alt="logo"
@@ -46,8 +46,8 @@ const Navbar = () => {
 
       <div className="motionButton">
         <Button
-          name="btnGetStarted"
-          label="Get started"
+          name="btnGetQuote"
+          label="Request a quote"
           type="button"
           variant="btn-default"
           icon={IoArrowForwardCircleOutline}

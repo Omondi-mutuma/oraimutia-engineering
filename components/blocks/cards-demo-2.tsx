@@ -20,8 +20,8 @@ export default function CardDemo2() {
             Road Works
           </h1>
           <p className="font-normal text-base text-gray-50 relative my-4">
-            This card is for some special services, with background gifs on
-            hover only.
+            Get a quote for road upgrade and maintenance from the best civil
+            engineers.
           </p>
         </div>
       </div>

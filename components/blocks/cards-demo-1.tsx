@@ -7,7 +7,7 @@ export default function CardDemo() {
       <div
         className={cn(
           "group w-full cursor-pointer overflow-hidden relative card h-96 rounded-2xl shadow-xl mx-auto flex flex-col justify-end p-4  border-transparent",
-          "bg-[url(https://images.unsplash.com/photo-1655737617209-df00e8728f42?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover",
+          "bg-[url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3BveXQ5ZWpyZGp0azlndzV6OWcwZWFxcmdzZjVvNXN1ZDV3Z3doZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1dOcGQRaZYy4lftWBf/giphy.gif)] bg-cover",
           // Preload hover image by setting it in a pseudo-element
           "before:bg-[https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3BveXQ5ZWpyZGp0azlndzV6OWcwZWFxcmdzZjVvNXN1ZDV3Z3doZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1dOcGQRaZYy4lftWBf/giphy.gifurl(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWlodTF3MjJ3NnJiY3Rlc2J0ZmE0c28yeWoxc3gxY2VtZzA5ejF1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/syEfLvksYQnmM/giphy.gif)] before:fixed before:inset-0 before:opacity-0 before:z-[-1]",
           "hover:bg-[url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3BveXQ5ZWpyZGp0azlndzV6OWcwZWFxcmdzZjVvNXN1ZDV3Z3doZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1dOcGQRaZYy4lftWBf/giphy.gif)]",
@@ -20,8 +20,8 @@ export default function CardDemo() {
             Borehole Drilling
           </h1>
           <p className="font-normal text-base text-gray-50 relative my-4">
-            This card is for some special services, with background gifs on
-            hover only.
+            Combining technology and machinery to map and drill into water
+            sources.
           </p>
         </div>
       </div>
